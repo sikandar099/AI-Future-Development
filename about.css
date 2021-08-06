@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.tim-2{
+    display: none;
+    width: 45%;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    color: royalblue;
+    text-shadow:  -3px 2px 3px rgba(23, 150, 255, 1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    background: rgb(43,93,219);
+background: linear-gradient(90deg, rgba(43,93,219,0.977109593837535) 41%, rgba(89,89,245,0.9855129551820728) 63%);
+}
+
+
+.form-holder {
+    /* background-color: royalblue; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 80vh;
+      margin-bottom: 100px;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* padding: 60px;  */
+}
+.row{
+    --bs-gutter-x: 0rem;
+
+}
+
+.form-content .form-items {
+ box-shadow: -10px 13px 14px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 13px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 13px 14px 0px rgba(0,0,0,0.75);
+    background-color: rgb(68, 87, 255); 
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    /* width: 100%; */
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: rgb(8, 8, 8);
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+    /* width: 100%; */
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+    
+}
+
+
+.btn-primary{
+    /* background-color: #6C757D; */
+    /* background-color: #2362fb;  */
+    background-color: #18bafd;
+    outline: none;
+    color: blue;
+    border: 0px;
+     box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #1b03a2;
+    outline: none !important;
+    border: none !important;
+     box-shadow: none;
+}
+
+.form-content textarea {
+    position: static !important;
+    /* width: 100%; */
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+    color: #000000;
+}
+
+.valid-feedback{
+    color: #1bff0c;
+    text-shadow: -3px 3px 10px rgba(0,0,0,0.5);
+}
+.tipo-2{
+    color: #0e0e0e;
+    background-color: rgb(68, 87, 255);
+    border-color: #1f1f1f;
+}
+.tipo-2:hover{
+    color: #fff;
+    background-color: #0c0ff7;
+    border-color: #000000;
+}
+.btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #000000;
+}

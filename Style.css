@@ -1,0 +1,104 @@
+#aim-1 a {
+    color: blue;
+}
+.logo-1{
+    width: 50px;
+    margin-right: 10px;
+
+}
+#main-1 li a {
+    color: rgb(0, 0, 14);
+}
+#main-1 li a:hover{
+    color: rgb(53, 53, 255);
+}
+#main-2 li a {
+    color: rgb(0, 0, 14);
+}
+#main-2 li a:hover{
+    color: rgb(53, 53, 255);
+}
+
+.pop:hover{
+   
+    border: 0.2px solid black; 
+    border-radius: 6px;
+    background-color: #b3fbfd;
+
+}
+.cop-1{
+    display: flex;
+
+}
+#main-2:hover{
+    color: rgb(255, 0, 0);
+    font-size: 1.06rem;
+}
+#main-3:Hover{
+    color: rgb(255, 0, 0);
+    font-size: 1.06rem;
+
+}
+.Automate-1{
+    color: black;
+}
+.Automate-2{
+    color: black;
+    border: 1px solid black;
+    padding:3px 1px;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.315);
+    
+}
+.Automate-3{
+    margin-left: 32px;
+    padding-right: 12px;
+}
+.Automate-4{
+    margin-top: 22px;
+    border: 0.3px solid black;
+    margin-left: 29px;
+    padding: 16px;
+    background: #02020205;
+    
+}
+.pop-01{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: rgba(0, 255, 213, 0.849);
+}
+.AI-010{
+    
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    width: 98%;
+    margin: 17px auto;
+}
+.red-1{
+    color:blue;
+}
+.part-02{
+    padding:17px;
+    margin-left: 75px;
+    z-index: -2;
+}
+.part-01{
+    z-index: 1;
+}
+.card-text{
+    font-size: small;
+}
+.hash-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img-20{
+    margin: 2px
+}
+.param-1{
+    
+    padding-right: 7px;
+    margin: 14px;
+
+}

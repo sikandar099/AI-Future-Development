@@ -1,0 +1,19 @@
+.Courses{
+    width: 98%;
+    margin: auto;
+    padding: 50px 0px;
+     background-color: rgba(207, 204, 204, 0.062);
+}
+.Mid-1{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 30px;
+
+}
+.blue{
+    /* padding: 12px;  */
+    padding-left: 12px;
+    color: blue;
+    text-decoration: underline;
+}
